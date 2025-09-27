@@ -1,14 +1,17 @@
 # Abhilash Chaudhary — Data Analyst Portfolio
 
-A multi-file, animated portfolio website. Built with HTML, CSS, JS & Bootstrap 5.
 
-## Sections
-Hero • Skills • Featured Analyses • Dashboards • Work Experience Timeline • SQL Case Studies • Contact
+## How to personalize
+1. Open assets/js/main.js and update the PROFILE object (name, email, phone, GitHub/LinkedIn/Kaggle/Twitter).
+2. Replace images in assets/img/ with your own (keep the same filenames or update paths in index.html).
+3. Drop your CV as assets/docs/resume.pdf so the *Resume* buttons work.
+4. Update project card titles, descriptions, and links in index.html (search for Projects section).
 
-## Tech Stack Highlighted
-Core & Advanced Python, NumPy, SciPy, Pandas, Seaborn, Plotly, Power BI, MIS, Advanced MySQL.
+## Run locally
+Just open index.html in your browser. Everything uses CDNs, so no build step is required.
 
-## How to Run
-1) Open `index.html` in a browser.
-2) Replace images in `assets/images/` with your screenshots.
-3) Update project/demo links in the Projects cards if you have them.
+## Deploy
+- GitHub Pages: push to a repo and enable Pages (root or /docs).
+- Netlify/Vercel: drag-and-drop the folder or connect the repo.
+
+Enjoy!
